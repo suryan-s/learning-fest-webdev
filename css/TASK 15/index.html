@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Sign Up</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+            background-image: url('https://spiffy-fire-8ed.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00607fab-2ebf-48a1-9db6-4b992ec36984%2Fa6ef9fae-ee41-48e3-a298-06f4ce87f407%2FUntitled.png?table=block&id=10c4829e-1539-41e8-835e-06df8d7c42a3&spaceId=00607fab-2ebf-48a1-9db6-4b992ec36984&width=2000&userId=&cache=v2');
+            font-family: Arial, sans-serif;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            margin-top: 100px;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid #fff;
+            padding: 6px;
+            max-width: 400px;
+            height: 650px;
+
+
+        }
+
+        .signup-box {
+            text-align: left;
+            margin-left: 10px;
+            height: 90px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"] {
+            width: 90%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding: 10px;
+            margin: 6px 0;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            background-color: #b1aaaad2;
+            margin-bottom: 20px;
+
+        }
+
+        input[type="submit"] {
+            width: 95%;
+            padding: 10px;
+            background-color: #010c01;
+            color: white;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        hr {
+            border: 1px solid #d6c8c8;
+            margin-right: 6px;
+            margin-bottom: 30px;
+        }
+
+        .signup-box label {
+            font-weight: bold;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="signup-box">
+        <h1 style="text-align: center;">Sign Up</h1>
+        <hr>
+        <form>
+            <label for="fname">First Name</label>
+            <input id="fname" placeholder="Enter first name" required type="text">
+            <label for="lname">Last Name</label>
+            <input id="lname" placeholder="Enter last name" required type="text">
+            <label for="dob">Date of Birth</label>
+            <input id="dob" placeholder="dd/mm/yy" required type="date">
+
+            <label for="email">Email</label>
+            <input id="email" placeholder="Enter email" required type="email">
+            <label for="pass">Password</label>
+            <input id="pass" placeholder="Enter password" required type="password">
+            <label for="cpass">Confirm Password</label>
+            <input id="cpass" placeholder="Confirm password" required type="password">
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</div>
+</body>
+</html>
