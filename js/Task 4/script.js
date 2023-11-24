@@ -6,14 +6,11 @@ function validateForm() {
     var errorMessage = document.getElementById('error-message');
     if (name === '' || email === '' || password === '' || confirmPassword === '') {
         errorMessage.innerHTML = 'All fields are required.';
-    } 
-    else if (password !== confirmPassword) {
+    } else if (password !== confirmPassword) {
         errorMessage.innerHTML = 'Passwords do not match.';
-    }
-    else if(email.indexOf('@') === -1) {
+    } else if (email.indexOf('@') === -1) {
         errorMessage.innerHTML = 'Invalid email address.';
-    }
-    else {
+    } else {
         errorMessage.innerHTML = '';
         alert('Form submitted successfully!');
     }

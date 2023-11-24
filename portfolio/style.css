@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Raleway&family=Satisfy&display=swap');
+
 .circle-container {
     border-radius: 50%;
     overflow: hidden;
@@ -12,17 +13,17 @@
     height: auto;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 5rem;
-font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background: linear-gradient(90deg, rgb(250, 77, 81) 0%, rgb(232, 66, 118) 35%, rgb(229, 151, 151) 100%);
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -30,12 +31,14 @@ section{
     max-width: 600px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-h1 span{
-    font-family: 'satisfy', cursive;}
+h1 span {
+    font-family: 'satisfy', cursive;
+}
 
-h2 span{
-    font-family: 'satisfy', cursive;}
+h2 span {
+    font-family: 'satisfy', cursive;
+}
