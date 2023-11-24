@@ -1,0 +1,15 @@
+body{
+    margin: 100px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.inputer{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+}

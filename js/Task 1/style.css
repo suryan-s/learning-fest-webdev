@@ -1,0 +1,25 @@
+body{
+    margin: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.dice{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    border-radius: 15px;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    font-size: 5rem;
+}
